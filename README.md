@@ -49,3 +49,12 @@ SDN enables real-time DDoS detection and mitigation through centralized control.
 Future improvements include entropy-based detection and machine learning models to enhance detection accuracy and enable early attack prediction.
 
 
+**AI USE AND DISCLOSURE**
+
+My work was referenced through a number of ressources inluding: professor advising, reading, tutorials, ChatGpt and Claude advising and guidance.
+
+For the structure and comprehension of the detection mechanismes and importants imports libraries. I worked with claude Sonnet 4.6 to diagnost and produce code snippets. 
+I believe the use of AI should be carefully investigated and making sure its uses brings comprehension , understanding of the basic structure of the work we are doing. However, a practical guidance with the opportunity for students and research to get HANDS PRACTICAL TRAINING WITH THE REQUIRED SKILLS IN ORDER TO LEAD WHILE ABIDING STANDARDS AND REGULATIONS. 
+
+
+
