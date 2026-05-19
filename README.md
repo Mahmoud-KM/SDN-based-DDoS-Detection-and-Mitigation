@@ -6,7 +6,7 @@ There are Three files in this repository, apart from the README file.
 
 3- multihost_topology.py : Network Topology runned in Mininet simulation environment (4 bots and 4 servers)
 
-This is the second version of my work, implemented under Exponentially Weighted Moving Average (EWMA) and K factor dynamic.
+This is the second version of my work, implemented under adaptive throshold on Exponentially Weighted Moving Average (EWMA) and K factor dynamic.
 The first version will be uploaded later: which uses adaptive threshold with static values (k & mean).
 Actual work consist of using Entropy detection method in combination EWMA as : threshold > emwa_k.dynamic and threshold > Entropy. Both conditions must be true.
 This approach conscist of another later of detection, then mitigate.
