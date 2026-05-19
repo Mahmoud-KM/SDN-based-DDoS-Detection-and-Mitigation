@@ -14,6 +14,8 @@ Once this is done with a comprehensive approach, I am planning to implement a ma
 
 =========================================
 
+**Adaptive threshold using ewma & k factor dynamic**
+
 **ABSTRACT**
 
 Software-Defined Networking (SDN) is an architectural approach that centralizes network management by separating the control plane from the data plane, enabling centralized, programmable, and flexible network management. This architecture is widely used in data centers, cloud networks, and enterprises for easier management and rapid traffic adaptation.
