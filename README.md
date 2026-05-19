@@ -44,6 +44,18 @@ k adapts to traffic: tighter for stable, looser for bursty; MIN_STD avoids colla
 We evaluated the system in Mininet using a multi-host SDN topology with 4 simultaneous attackers generating TCP SYN, UDP, ICMP, and mixed DDoS traffic, while legitimate traffic remained active. The controller polled flow statistics every 5s and applied the adaptive EWMA + dynamic k threshold for real-time detection.
 Across all scenarios, 1,832 mitigation events were recorded: ICMP (56.2%), TCP SYN (22.5%), mixed ICMP+TCP (10.6%), mixed TCP+UDP (7.0%), and ICMP+UDP (3.6%). All attackers were detected and blocked independently using flow-level rules.
 
+CONFUSION MATRIX:
+Total Raws: 13184
+Attack Raws: 1831
+Normal Rows: 11353
+
+
+True Negative: 11353
+False Negative: 0
+
+True Positive: 1831
+False Positive: 0
+
 **CONCLUSION
 **
 
