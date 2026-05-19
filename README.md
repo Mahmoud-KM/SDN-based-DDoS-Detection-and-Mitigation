@@ -8,6 +8,7 @@ The first version will be uploaded later: which uses adaptive threshold with sta
 Actual work consist of using Entropy detection method in combination EWMA as : threshold > emwa_k.dynamic and threshold > Entropy.
 This approach conscist of another later of detection, then mitigate.
 Once this done with a comprehensive approach, I am planning to implement a machine learning approach on top of the above to put another layer of detection, then mitigate.
+
 ===========================================================================================================================================================================
 
 **ABSTRACT**
