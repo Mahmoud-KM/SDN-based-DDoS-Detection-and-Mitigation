@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Enhanced SDN DDoS Topology — Flat Single Subnet
+Enhanced SDN DDoS Topology - Flat Single Subnet
 =================================================
-Multi-attacker, multi-victim topology — same flat 10.0.0.0/24 subnet
-No routing needed — works with existing Ryu controller zero changes
+Multi-attacker, multi-victim topology - same flat 10.0.0.0/24 subnet
+No routing needed - works with existing Ryu controller zero changes
 
 Architecture:
-                    10.0.0.0/24 — Single Subnet
+                    10.0.0.0/24 - Single Subnet
     
     ATTACKERS          CORE SWITCHES         VICTIMS (SERVERS)
     
@@ -21,8 +21,8 @@ Improvements over original 3h/3s topology:
     - 4 attackers instead of 1 (coordinated DDoS simulation)
     - 4 victims instead of 1 (multi-target attack simulation)  
     - 4 switches (more realistic campus/enterprise topology)
-    - Flow table grows measurably — validates scalability
-    - All hosts same subnet — zero controller changes needed
+    - Flow table grows measurably - validates scalability
+    - All hosts same subnet - zero controller changes needed
 
 Research contributions:
     - Coordinated multi-attacker DDoS detection
@@ -30,9 +30,9 @@ Research contributions:
     - Flow table growth analysis
     - Detection latency under increased load
 
-Author  : Ranger (Mahmoud)
+Author  : Mahmoud Soilihi
 Date    : April 2026
-Purpose : SOURCE Conference — Valparaiso University, May 30 2026
+Purpose : SOURCE Poster Presentation Showcase - Valparaiso University, May 30 2026
 """
 
 from mininet.net import Mininet
