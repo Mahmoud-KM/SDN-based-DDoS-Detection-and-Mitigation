@@ -10,7 +10,7 @@ This is the second version of my work, implemented under adaptive throshold on E
 The first version will be uploaded later: which uses adaptive threshold with static values (k & mean).
 Actual work consist of using Entropy detection method in combination EWMA as : threshold > emwa_k.dynamic and threshold > Entropy. Both conditions must be true.
 This approach conscist of another layer of detection, then mitigate.
-Once this done with a comprehensive approach, I am planning to implement a machine learning approach on top of the above to put another layer of detection, then mitigate.
+Once this is done with a comprehensive approach, I am planning to implement a machine learning approach on top of the above to put another layer of detection, then mitigate.
 
 =========================================
 
