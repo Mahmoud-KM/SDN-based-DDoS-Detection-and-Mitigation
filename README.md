@@ -29,8 +29,11 @@ Our research objectives are to:
 **METHODOLOGY**
 
 We used a Mininet SDN testbed of 8 hosts across 3 switches, controlled by a Ryu controller, which polls per-flow statistics every 5 seconds to monitor packet rates per source IP. The controller tracks traffic behavior using an Exponentially Weighted Moving Average (EWMA), which gives more weight to recent observations while smoothing out short-term fluctuations:
+
          **EWMAnew​=λ×rate+(1−λ)×EWMAold​(λ=0.125)**
+
 The detection threshold adapts dynamically through a sensitivity factor k, which scales based on the Coefficient of Variation (CV = std / mean) of observed traffic:   
+
           **k=clamp(KBASE​+CVSCALE​×CV,KMIN​,KMAX​)**
 
          **Threshold=EWMA+k×max(σEWMA, MIN_STD)**
