@@ -4,7 +4,7 @@ There are Three files in this repository, apart from the README file.
 
 2- dynamic_traffic_ewma.py : Software Defined Networking (SDN) controller code runned in RYU Controller
 
-3- multihost_topology.py : Network Topology runned in Mininet simulation environment
+3- multihost_topology.py : Network Topology runned in Mininet simulation environment (4 bots and 4 servers)
 
 This is the second version of my work, implemented under Exponentially Weighted Moving Average (EWMA) and K factor dynamic
 The first version will be uploaded later: which uses adaptive threshold with static values (k & mean)
