@@ -51,10 +51,7 @@ Future improvements include entropy-based detection and machine learning models 
 
 **AI USE AND DISCLOSURE**
 
-My work was referenced through a number of ressources inluding: professor advising, reading, tutorials, ChatGpt and Claude advising and guidance.
-
-For the structure and comprehension of the detection mechanismes and importants imports libraries. I worked with claude Sonnet 4.6 to diagnost and produce code snippets. 
-I believe the use of AI should be carefully investigated and making sure its uses brings comprehension , understanding of the basic structure of the work we are doing. However, a practical guidance with the opportunity for students and research to get HANDS PRACTICAL TRAINING WITH THE REQUIRED SKILLS IN ORDER TO LEAD WHILE ABIDING STANDARDS AND REGULATIONS. 
-
-
+This work was informed by a range of resources, including professor advising, academic reading, online tutorials, and guidance from AI assistants (ChatGPT and Claude). Specifically, I worked with Claude Sonnet 4.6 to better understand the structure of the detection mechanism, identify the relevant Python libraries, and diagnose and refine code snippets during development.
+I believe the use of AI in academic and research work should be approached carefully - with attention to whether it genuinely supports comprehension and understanding of the underlying concepts, rather than replacing them. At the same time, I think students and researchers benefit greatly when AI is used as a tool for hands-on, practical training in the skills the field actually requires, provided this is done in line with academic standards and institutional regulations.
+My goal in using these tools has been to learn the fundamentals more deeply, not to bypass them.
 
