@@ -1,6 +1,6 @@
 There are Three files in this repository, apart from the README file.
 
-1- detection_8hosts.CVS  : Results datasets 
+1- detection_8hosts.csv  : Results datasets 
 
 2- dynamic_traffic_ewma.py : Software Defined Networking (SDN) controller code runned in RYU Controller
 
