@@ -45,8 +45,11 @@ We evaluated the system in Mininet using a multi-host SDN topology with 4 simult
 Across all scenarios, 1,832 mitigation events were recorded: ICMP (56.2%), TCP SYN (22.5%), mixed ICMP+TCP (10.6%), mixed TCP+UDP (7.0%), and ICMP+UDP (3.6%). All attackers were detected and blocked independently using flow-level rules.
 
 CONFUSION MATRIX:
+
 Total Raws: 13184
+
 Attack Raws: 1831
+
 Normal Rows: 11353
 
 
