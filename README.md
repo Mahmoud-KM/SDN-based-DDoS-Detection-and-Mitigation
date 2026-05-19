@@ -69,6 +69,7 @@ Future improvements include entropy-based detection and machine learning models 
 **AI USE AND DISCLOSURE**
 
 This work was informed by a range of resources, including professor advising, academic reading, online tutorials, and guidance from AI assistants (ChatGPT and Claude). Specifically, I worked with Claude Sonnet 4.6 to better understand the structure of the detection mechanism, identify the relevant Python libraries, and diagnose and refine code snippets during development.
-I believe the use of AI in academic and research work should be approached carefully - with attention to whether it genuinely supports comprehension and understanding of the underlying concepts, rather than replacing them. At the same time, I think students and researchers benefit greatly when AI is used as a tool for hands-on, practical training in the skills the field actually requires, provided this is done in line with academic standards and institutional regulations.
-My goal in using these tools has been to learn the fundamentals more deeply, not to bypass them.
+I believe the use of AI in academic and research work should be approached carefully - with attention to whether it genuinely supports comprehension and understanding of the underlying concepts, rather than replacing them. At the same time, I think students and researchers benefit greatly when skills are learned with hands-on tools, practical training in the skills the field actually requires, organizational focus and orientation, provided this is done in line with academic standards and institutional regulations.
+
+My goal in using these tools has been to learn the fundamentals more deeply, not to bypass them as AI improves how we work and study.
 
