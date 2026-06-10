@@ -76,7 +76,7 @@ I believe the use of AI in academic and research work should be approached caref
 My goal in using these tools has been to learn the fundamentals more deeply, not to bypass them as AI improves how we work and study.
 
 
-### Prerequisites
+### Working environment
 
 - Linux environment (Ubuntu 20.04+ recommended)
 - Python 3
@@ -85,12 +85,12 @@ My goal in using these tools has been to learn the fundamentals more deeply, not
 
 
 ### Running the Project
-**Terminal 1 — Start the Ryu controller:**
+**Terminal 1 - Start the Ryu controller:**
 ```bash
 ryu-manager dynamic_traffic_ewma.py
 ```
 
-**Terminal 2 — Launch the Mininet topology:**
+**Terminal 2 - Launch the Mininet topology:**
 ```bash
 sudo python3 multihost_topology.py
 ```
