@@ -102,9 +102,7 @@ sudo python3 multihost_topology.py
 
 Graduate Student in Information Technology, Valparaiso University
 
-Faculty Sponsor: Dr. Haydar Cukurtepe
-
- ORCID: 0000-0002-4670-4877
+Faculty Sponsor: Dr. Haydar Cukurtepe (ORCID: 0000-0002-4670-4877)
  
  Research: [https://scholar.valpo.edu/cus/1587]
 
