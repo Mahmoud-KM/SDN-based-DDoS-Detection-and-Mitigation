@@ -1,3 +1,5 @@
+**SDN-based DDoS Detection and Mitigation**
+
 There are Three files in this repository, apart from the README file.
 
 1- detection_8hosts.csv  : Results datasets 
@@ -12,7 +14,6 @@ Actual work consist of using Entropy detection method in combination EWMA as : t
 This approach conscist of another layer of detection, then mitigate.
 Once this is done with a comprehensive approach, I am planning to implement a machine learning approach on top of the above to put another layer of detection, then mitigate.
 
-=========================================
 
 **Adaptive threshold using ewma & k factor dynamic**
 
@@ -41,8 +42,7 @@ The detection threshold adapts dynamically through a sensitivity factor k, which
 k adapts to traffic: tighter for stable, looser for bursty; MIN_STD avoids collapse. EWMA updates only on normal traffic to prevent drift.  Detected sources are blocked for 60s, then auto re-evaluated.
 
 
-**EXPERMIENT AND RESULTS
-**
+**EXPERMIENT AND RESULTS**
 
 We evaluated the system in Mininet using a multi-host SDN topology with 4 simultaneous attackers generating TCP SYN, UDP, ICMP, and mixed DDoS traffic, while legitimate traffic remained active. The controller polled flow statistics every 5s and applied the adaptive EWMA + dynamic k threshold for real-time detection.
 Across all scenarios, 1,832 mitigation events were recorded: ICMP (56.2%), TCP SYN (22.5%), mixed ICMP+TCP (10.6%), mixed TCP+UDP (7.0%), and ICMP+UDP (3.6%). All attackers were detected and blocked independently using flow-level rules.
@@ -62,8 +62,7 @@ False Negative: 0
 True Positive: 1831
 False Positive: 0
 
-**CONCLUSION
-**
+**CONCLUSION**
 
 SDN enables real-time DDoS detection and mitigation through centralized control. The adaptive threshold (EWMA + dynamic sensitivity) effectively distinguishes attack traffic from normal behavior, outperforming static approaches. Malicious flows are quickly dropped across all switches, ensuring uninterrupted legitimate traffic.
 Future improvements include entropy-based detection and machine learning models to enhance detection accuracy and enable early attack prediction.
@@ -75,4 +74,34 @@ This work was informed by a range of resources, including professor advising, ac
 I believe the use of AI in academic and research work should be approached carefully - with attention to whether it genuinely supports comprehension and understanding of the underlying concepts, rather than replacing them. At the same time, I think students and researchers benefit greatly when skills are learned with hands-on tools, practical training in the skills the field actually requires, organizational focus and orientation, provided this is done in line with academic standards and institutional regulations.
 
 My goal in using these tools has been to learn the fundamentals more deeply, not to bypass them as AI improves how we work and study.
+
+
+**Prerequisites**
+
+- Linux environment (Ubuntu 20.04+ recommended)
+- Python 3
+- [Mininet](http://mininet.org/) installed
+- [Ryu SDN Controller](https://ryu-sdn.org/) installed
+
+
+### Running the Project
+**Terminal 1 — Start the Ryu controller:**
+```bash
+ryu-manager dynamic_traffic_ewma.py
+```
+
+**Terminal 2 — Launch the Mininet topology:**
+```bash
+sudo python3 multihost_topology.py
+**Simulation Commands**
+
+
+**Author**
+
+**Mahmoud Soilihi Cheikh** - Fulbright Foreign Student
+Graduate Student in Information Technology, Valparaiso University
+Faculty Sponsor: Dr. Haydar Cukurtepe
+
+ ORCID: 0000-0002-4670-4877
+ Research: [https://scholar.valpo.edu/cus/1587]
 
