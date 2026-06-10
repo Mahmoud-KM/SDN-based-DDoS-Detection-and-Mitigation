@@ -8,13 +8,13 @@ No routing needed - works with existing Ryu controller zero changes
 Architecture:
                     10.0.0.0/24 - Single Subnet
     
-    ATTACKERS          CORE SWITCHES         VICTIMS (SERVERS)
-    
-    h1 (10.0.0.1) \                        / h5 (10.0.0.5) Web Server
+    ATTACKERS     CORE SWITCHES(CONTROLLER)      VICTIMS (SERVERS)
+                      |   |  |    |
+    h1 (10.0.0.1) \   |   |  |    |           / h5 (10.0.0.5) Web Server
     h2 (10.0.0.2)  -- s1 -- s2 -- s3 --  h6 (10.0.0.6) File Server
-    h3 (10.0.0.3) /          |             \ h7 (10.0.0.7) DNS Server
-    h4 (10.0.0.4) /         s4
-                              |
+    h3 (10.0.0.3) /       |  |             \ h7 (10.0.0.7) DNS Server
+    h4 (10.0.0.4) /        \s4
+                             |
                          h8 (10.0.0.8) ← secondary victim
 
 Improvements over original 3h/3s topology:
