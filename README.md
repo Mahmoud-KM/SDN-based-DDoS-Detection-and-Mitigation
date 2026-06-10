@@ -93,7 +93,7 @@ ryu-manager dynamic_traffic_ewma.py
 **Terminal 2 — Launch the Mininet topology:**
 ```bash
 sudo python3 multihost_topology.py
-
+```
 
 
 ### Author
