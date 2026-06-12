@@ -98,9 +98,9 @@ sudo python3 multihost_topology.py
 
 ### Author
 
-**Mahmoud Soilihi Cheikh** - Fulbright Foreign Student
+**Mahmoud Soilihi Cheikh Moussa** - Fulbright Foreign Student
 
-Graduate Student in Information Technology, Valparaiso University
+Graduate Student in Information Technology, Valparaiso University, Indiana - United States
 
 Faculty Sponsor: Dr. Haydar Cukurtepe (ORCID: 0000-0002-4670-4877)
  
